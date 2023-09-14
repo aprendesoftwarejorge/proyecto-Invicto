@@ -1,0 +1,76 @@
+.nav-link{
+    color: #E4A445 !important;
+}
+#logo{
+    width: 100%;
+    height: 150px;
+}
+
+.alto-img-s{
+    height: 750px;
+}
+
+#boxer .titulo{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: -25px;   
+}
+
+#boxer {
+    background-color:#000000 !important;   
+}
+
+#femenina .titulo{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: -25px;    
+}
+
+#femenina{
+    background-color:#000000 !important;   
+}
+
+#cachetero .titulo{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: -25px;    
+}
+
+#cachetero{
+    background-color:#000000 !important;   
+}
+
+
+#dama .titulo{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: -25px;    
+}
+
+#dama{
+    background-color:#000000 !important;   
+}
+#conjunto .titulo{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: -25px;    
+}
+
+#conjunto{
+    background-color:#000000 !important;   
+}
