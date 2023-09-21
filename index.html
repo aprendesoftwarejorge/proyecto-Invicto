@@ -1,13 +1,316 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Proyecto en desarrollar</h1>
+<!DOCTYPE HTML>
+<html lang="es">
+<html>
+	<head>
+		<title>sitio web invicto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="is-preload">
+        <!-- menu y logo -->
+    <nav class="navbar navbar-expand-lg bg-dark" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logoinvictoreal.jpg" alt="" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#asesorias">Asesorias</a></li>
+                  <li><a class="dropdown-item" href="#Atencion al cliente">Atencion al cliente</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="boxer.html">boxer</a></li>
+                  <li><a class="dropdown-item" href="cachetero.html">cachetero</a></li>     
+				  <li><a class="dropdown-item" href="boxerdama.html">boxerdama</a></li>   
+				  <li><a class="dropdown-item" href="conjuntos.html">conjuntos</a></li>                
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+	  <!-- slider nuevo -->
 
-    
-</body>
+	  <section id="container-slider">	
+		<a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+		<a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+		<ul class="listslider">
+		  <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+		  <li><a itlist="itList_1" href="#"></a></li>
+		  <li><a itlist="itList_2" href="#"></a></li>
+		  <li><a itlist="itList_3" href="#"></a></li>
+		</ul>
+		<ul id="slider">
+		  <li style="background-image: url('images/boxer7.jpg'); z-index:0; opacity: 1;">
+			<div class="content_slider" >
+			  <div>
+				<h2>boxer</h2>
+			<p>ropa interior masculina elaborada con altos estandares de calidad</p>
+			<a href="https://wa.me/3012357691" class="btnSlider" target="_blank">solicita tu compra aqui</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/boxerdama\ \(19\).jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>boxer dama</h2>
+			<p>el modelo que mejor se adapta a tus necesidades</p>
+			<a href="https://wa.me/3012357691" class="btnSlider" target="_blank">solicita tu compra aqui</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/cachetero24.jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>cachetero</h2>
+			<p>comodos cacheteros frescos y con libertad de movimiento</p>
+			<a href="https://wa.me/3012357691" class="btnSlider" target="_blank">solicita tu compra aqui</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/conjunto5.jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>conjunto</h2>
+			<p>las ul|timas tendencias en conjuntos de moda </p>
+			
+		  </div>
+			</div>
+		  </li>
+	   </ul>
+	 </section>
+
+	 <!-- fin de slider -->
+
+
+
+	  
+         <!-- seccion ropa intima masculina boxer -->
+         <div class="row row-cols-1 row-cols-md-3 g-4" id="boxer">
+			<h2 class="titulo">ropa intima masculina boxer</h2>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="images/boxer6.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">kid de boxer</h5>
+				  <p class="card-text">kid de boxer calvin klein </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/boxer 2.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">boxer </h5>
+				  <p class="card-text">boxer con rayas y variedad en</p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/boxer5.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">boxer</h5>
+				  <p class="card-text">calidad en telas y nuestro mejor servicio </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+         <!-- seccion ropa intima femenina cachetero -->
+         <div class="row row-cols-1 row-cols-md-3 g-4" id="cachetero">
+			<h2 class="titulo">cachetero</h2>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="images/cachetero11.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">Cachetero dama</h5>
+				  <p class="card-text">lo mejor en ropa intima femenina </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/cachetero12.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">cachetero</h5>
+				  <p class="card-text">ropa interior dama </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/cachetero13.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">cachetero</h5>
+				  <p class="card-text">Elaborado en tela tipo algodon y lycra </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+	
+		<!-- seccion boxer dama -->
+		<div class="row row-cols-1 row-cols-md-3 g-4" id="dama">
+		  <h2 class="titulo">boxer dama</h2>
+		  <div class="col">
+			<div class="card h-100"> 
+			  <img src="/images/boxerdama (10).jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">boxer dama</h5>
+				<p class="card-text">refuerzo 100% algodon para una comodidad transpirable</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col">
+			<div class="card h-100"> 
+			  <img src="/images/boxerdama (11).jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">boxer dama</h5>
+				<p class="card-text">la cintura con logotipo suave y flexible mantiene la forma despues del uso y se mantiene en su lugar,sin demasiada compresion</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col">
+			<div class="card h-100">
+			  <img src="/images/boxerdama (12).jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">boxer dama</h5>
+				<p class="card-text">comodos boxer de dama</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		  
+         <!-- seccion conjunto femenino -->
+         <div class="row row-cols-1 row-cols-md-3 g-4" id="conjunto">
+			<h2 class="titulo">Conjunto</h2>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="images/conjunto1.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">bello conjunto</h5>
+				  <p class="card-text">lo mejor en ropa intima femenina </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/conjunto2.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">conjunto</h5>
+				  <p class="card-text">ropa interior dama </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/images/conjunto3.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">conjunto</h5>
+				  <p class="card-text">Elaborado en tela tipo algodon y lycra </p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+			
+
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; 2023. INVICTO todos los derechos reservados.</li><li>Design: <a href="">lisbeth Vergara,Sara Berrio y Yury Ortiz.</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+ 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/functions.js"></script>
+
+	</body>
 </html>
