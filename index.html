@@ -18,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
@@ -40,10 +40,10 @@
                 Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#boxer">boxer</a></li>
-                  <li><a class="dropdown-item" href="#cachetero">cachetero</a></li>     
-				  <li><a class="dropdown-item" href="#boxerdama">boxerdama</a></li>   
-				  <li><a class="dropdown-item" href="#conjuntos">conjuntos</a></li>                
+                  <li><a class="dropdown-item" href="boxer.html">boxer</a></li>
+                  <li><a class="dropdown-item" href="cachetero.html">cachetero</a></li>     
+				  <li><a class="dropdown-item" href="boxerdama.html">boxerdama</a></li>   
+				  <li><a class="dropdown-item" href="conjuntos.html">conjuntos</a></li>                
                   
                 </ul>
               </li>
@@ -55,62 +55,71 @@
           </div>
         </div>
       </nav>
-	  <!-- slider o carousel -->
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-         
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/boxer3.jpg" class="d-block w-100 alto-img-s" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>boxer</h5>
-              <p>comodo boxer con borde negro</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/cacheteros 2.jpg" class="d-block w-100 alto-img-s" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>cachetero</h5>
-              <p>cachetero calvin klein</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/boxerdama (13).jpg" class="d-block w-100 alto-img-s" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>boxerdama</h5>
-              <p> a tu servicio la mas amplia diversidad en tallas y colores</p>
-            </div>
-          </div>
-        </div>
-          <div class="carousel-item">
-            <img src="/images/conjunto4.jpg" class="d-block w-100 alto-img-s" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>conjunto</h5>
-              <p> a tu servicio la mas amplia diversidad en tallas y colores</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+	  <!-- slider nuevo -->
+
+	  <section id="container-slider">	
+		<a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+		<a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+		<ul class="listslider">
+		  <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+		  <li><a itlist="itList_1" href="#"></a></li>
+		  <li><a itlist="itList_2" href="#"></a></li>
+		  <li><a itlist="itList_3" href="#"></a></li>
+		</ul>
+		<ul id="slider">
+		  <li style="background-image: url('images/boxer7.jpg'); z-index:0; opacity: 1;">
+			<div class="content_slider" >
+			  <div>
+				<h2>boxer</h2>
+			<p>ropa interior masculina elaborada con altos estandares de calidad</p>
+			<a href="#" class="btnSlider">Ver más</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/boxerdama\ \(19\).jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>boxer dama</h2>
+			<p>el modelo que mejor se adapta a tus necesidades</p>
+			<a href="#" class="btnSlider">Ver más</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/cachetero24.jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>cachetero</h2>
+			<p>comodos cacheteros frescos y con libertad de movimiento</p>
+			<a href="#" class="btnSlider">Ver más</a>
+			
+		  </div>
+			</div>
+		  </li>
+		  <li style="background-image: url('images/conjunto5.jpg'); ">
+			<div class="content_slider" >
+			  <div>
+				<h2>conjunto</h2>
+			<p>las ul|timas tendencias en conjuntos de moda </p>
+			
+		  </div>
+			</div>
+		  </li>
+	   </ul>
+	 </section>
+
+	 <!-- fin de slider -->
+
+
+
 	  
          <!-- seccion ropa intima masculina boxer -->
          <div class="row row-cols-1 row-cols-md-3 g-4" id="boxer">
 			<h2 class="titulo">ropa intima masculina boxer</h2>
 			<div class="col">
 			  <div class="card h-100">
-				<img src="images/boxer 2.jpg" class="card-img-top" alt="...">
+				<img src="images/boxer6.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 				  <h5 class="card-title">kid de boxer</h5>
 				  <p class="card-text">kid de boxer calvin klein </p>
@@ -122,10 +131,10 @@
 			</div>
 			<div class="col">
 			  <div class="card h-100">
-				<img src="/images/boxer 1.jpg" class="card-img-top" alt="...">
+				<img src="/images/boxer 2.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 				  <h5 class="card-title">boxer </h5>
-				  <p class="card-text">boxer con rayas negras y blancas</p>
+				  <p class="card-text">boxer con rayas y variedad en</p>
 				</div>
 				<div class="card-footer">
 				  <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
@@ -146,12 +155,12 @@
 			</div>
 		  </div>
 		  
-         <!-- seccion ropa intima femenina -->
+         <!-- seccion ropa intima femenina cachetero -->
          <div class="row row-cols-1 row-cols-md-3 g-4" id="cachetero">
 			<h2 class="titulo">cachetero</h2>
 			<div class="col">
 			  <div class="card h-100">
-				<img src="images/cacheteros 4.jpg" class="card-img-top" alt="...">
+				<img src="images/cachetero11.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 				  <h5 class="card-title">Cachetero dama</h5>
 				  <p class="card-text">lo mejor en ropa intima femenina </p>
@@ -163,7 +172,7 @@
 			</div>
 			<div class="col">
 			  <div class="card h-100">
-				<img src="/images/cacheteros 5.jpg" class="card-img-top" alt="...">
+				<img src="/images/cachetero12.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 				  <h5 class="card-title">cachetero</h5>
 				  <p class="card-text">ropa interior dama </p>
@@ -175,7 +184,7 @@
 			</div>
 			<div class="col">
 			  <div class="card h-100">
-				<img src="/images/cacheteros 7.jpg" class="card-img-top" alt="...">
+				<img src="/images/cachetero13.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 				  <h5 class="card-title">cachetero</h5>
 				  <p class="card-text">Elaborado en tela tipo algodon y lycra </p>
@@ -231,7 +240,7 @@
 		  
          <!-- seccion conjunto femenino -->
          <div class="row row-cols-1 row-cols-md-3 g-4" id="conjunto">
-			<h2 class="titulo">conjunto</h2>
+			<h2 class="titulo">Conjunto</h2>
 			<div class="col">
 			  <div class="card h-100">
 				<img src="images/conjunto1.jpg" class="card-img-top" alt="...">
@@ -271,169 +280,7 @@
 		  </div>
 
 
-		<!-- Basic Elements -->
-		<!--
-			<section class="main">
-				<header>
-					<div class="container">
-						<h2>A Whole Lotta Elements</h2>
-						<p>General purpose elements for every general purpose. Or something like that.</p>
-					</div>
-				</header>
-				<div class="content style1 dark">
-					<div class="container">
-						<section>
-							<header>
-								<h3>Paragraph</h3>
-								<p>This is a byline</p>
-							</header>
-							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-							amet risus elit.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Blockquote</h3>
-							</header>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
-							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-						</section>
-						<section>
-							<header>
-								<h3>Divider</h3>
-							</header>
-							<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-							<hr />
-							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Unordered List</h3>
-							</header>
-							<ul class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ul>
-						</section>
-						<section>
-							<header>
-								<h3>Ordered List</h3>
-							</header>
-							<ol class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ol>
-						</section>
-						<section>
-							<header>
-								<h3>Table</h3>
-							</header>
-							<div class="table-wrapper">
-								<table class="default">
-									<thead>
-										<tr>
-											<th>ID</th>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>00001</td>
-											<td>Lorem ipsum dolor</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00002</td>
-											<td>Sit amet nullam</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00003</td>
-											<td>Feugiat felis viverra</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00004</td>
-											<td>Sagittis enim felis</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00005</td>
-											<td>Nullam sed vestibulum</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="3"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-						<section>
-							<header>
-								<h3>Form</h3>
-							</header>
-							<form method="post" action="#">
-								<div class="row gtr-50">
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="name" id="name" value="" placeholder="John Doe" />
-									</div>
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-									</div>
-									<div class="col-12">
-										<div class="select" tabindex="-1">
-											<select name="department" id="department">
-												<option value="">Choose a department</option>
-												<option value="1">Manufacturing</option>
-												<option value="2">Administration</option>
-												<option value="3">Support</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" class="button" value="Send Message" /></li>
-											<li><input type="reset" class="button alt" value="Clear Form" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-					</div>
-				</div>
-			</section>
-		-->
+			
 
 
 
@@ -448,7 +295,7 @@
 				</ul>
 				<div class="copyright">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; 2023. INVICTO todos los derechos reservados.</li><li>Design: <a href="">lisbeth Vergara,Sara Berrio y Yury Ortiz.</a></li>
 					</ul>
 				</div>
 			</section>
@@ -463,6 +310,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/functions.js"></script>
 
 	</body>
 </html>
