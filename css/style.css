@@ -36,6 +36,14 @@ body{
     padding-top: 50px;
     margin-bottom: -25px;    
 }
+#nosotros .titulo{
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 100px;
+      
+}
 
 #femenina{
     background-color:#000000 !important;   
