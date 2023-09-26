@@ -45,6 +45,11 @@ body{
       
 }
 
+.img-mod{
+    width: 100%;
+    height: 579px;
+}
+
 #femenina{
     background-color:#000000 !important;   
 }
